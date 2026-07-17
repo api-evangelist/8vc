@@ -1,0 +1,29 @@
+generated: '2026-07-17'
+method: searched
+source: https://8vc.com/team
+type: Team
+partners:
+  - name: Joe Lonsdale
+    role: Founder & Managing Partner
+    twitter: https://twitter.com/JTLonsdale
+    linkedin: https://www.linkedin.com/in/jtlonsdale/
+  - name: Jake Medwell
+    role: Founding Partner
+  - name: Drew Oetting
+    role: Founding Partner
+  - name: Kimmy Scotti
+    role: Founding Partner
+  - name: Alex Kolicich
+    role: Partner
+  - name: Francisco Gimenez
+    role: Partner
+  - name: Alex Moore
+    role: Partner
+  - name: Bhaskar Ghosh
+    role: Partner & CTO
+  - name: Jin-Young Kim
+    role: Partner
+  - name: Karen White
+    role: Partner
+  - name: Susan Liu
+    role: Partner

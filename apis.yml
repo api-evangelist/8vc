@@ -1,0 +1,88 @@
+aid: 8vc
+name: 8VC
+description: >-
+  8VC is a technology investment firm founded in 2015 by Joe Lonsdale and Jake Medwell (with founding
+  partners Drew Oetting and Kimmy Scotti) following the wind-down of Formation 8, and headquartered at
+  907 South Congress Avenue in Austin, Texas after relocating from San Francisco in 2020. The firm both
+  invests in and co-founds early-stage companies, dedicating a significant share of its capital (roughly
+  25-30%) to building companies from scratch through its "8VC Build" venture-studio program and assembling
+  teams of top specialists. 8VC concentrates on "national capability" and deep-tech categories including
+  defense, life sciences and biotech, healthcare, logistics and supply chain, manufacturing and
+  industrials, enterprise software, financial services, AI, and IT infrastructure. With approximately
+  $6 billion in assets under management (2023) and a public portfolio of more than 170 companies, 8VC is
+  known for its founder-led, mission-driven approach and notable investments including Palantir, Addepar,
+  Anduril, Flexport, Vercel, Saronic, Epirus, Yugabyte, and Project44. The firm runs the 8VC Fellowship
+  and Bio-IT Fellowship talent programs and maintains a stated policy of not accepting capital from
+  foreign-government-connected sources.
+image: https://8vc.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Early Stage
+  - Venture Studio
+  - Defense
+  - American Dynamism
+  - Life Sciences
+  - Healthcare
+  - Logistics
+  - Enterprise
+  - Artificial Intelligence
+  - Infrastructure
+  - Austin
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://8vc.com/
+  - type: Portfolio
+    url: https://8vc.com/companies
+  - type: Portfolio
+    url: portfolio/8vc-portfolio.yml
+  - type: Team
+    url: https://8vc.com/team
+  - type: Team
+    url: team/8vc-team.yml
+  - type: InvestmentThesis
+    url: https://8vc.com/our-thesis
+  - type: News
+    url: https://8vc.com/resources
+  - type: Blog
+    url: https://8vc.com/resources
+  - type: Jobs
+    url: https://8vc.com/jobs
+  - type: Contact
+    url: https://8vc.com/contact
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/8vc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/8vc
+  - type: Twitter
+    url: https://twitter.com/8vc
+  - type: Features
+    data:
+      - "Stage: Early stage (Seed, Series A) plus in-house company building via 8VC Build"
+      - "Sectors: defense, life sciences/biotech, healthcare, logistics, manufacturing/industrials, enterprise software, financial services, AI, IT infrastructure"
+      - "Geography: Primarily United States / global technology"
+      - "AUM: ~$6 billion (2023, self-reported/press)"
+      - "Portfolio: 170+ companies"
+      - "Founded: 2015"
+      - "HQ: Austin, Texas, USA (relocated from San Francisco in 2020)"
+    sources:
+      - https://8vc.com/
+      - https://en.wikipedia.org/wiki/8VC
+      - https://www.crunchbase.com/organization/8vc
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: 8VC
+    url: https://8vc.com/
