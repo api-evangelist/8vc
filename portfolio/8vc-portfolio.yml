@@ -3,9 +3,9 @@ method: searched
 source: https://8vc.com/companies
 summary:
   portfolio_total: 173
-  in_network: 48
-  api_providers: 25
-  missing: 125
+  in_network: 173
+  api_providers: 41
+  missing: 0
   stubs_created: 0
 companies:
 - name: 180 Insurance
@@ -13,17 +13,19 @@ companies:
   sector: insurtech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 180-insurance
+  slug: 180-insurance
+  matched_by: domain
 - name: Addepar
   url: https://addepar.com
   sector: fintech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: addepar
+  slug: addepar
+  matched_by: domain
 - name: Affinity
   url: https://affinity.co
   sector: enterprise
@@ -37,9 +39,10 @@ companies:
   url: https://agvend.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agvend
+  slug: agvend
+  matched_by: domain
 - name: Ai21 Labs
   url: https://ai21.com
   sector: ai
@@ -69,9 +72,10 @@ companies:
 - name: Alloy Therapeutics
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alloy-therapeutics
+  slug: alloy-therapeutics
+  matched_by: name-slug
 - name: Altos Labs
   url: https://altoslabs.com
   status: active
@@ -79,28 +83,31 @@ companies:
   slug: altos-labs
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: American Operator
   url: https://americanoperator.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: american-operator
+  slug: american-operator
+  matched_by: domain
 - name: Aimip
   url: https://amp.tech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aimip
+  slug: aimip
+  matched_by: domain
 - name: Anduin
   url: https://anduintransact.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anduin
+  slug: anduin-transactions
+  matched_by: domain
 - name: Anduril
   url: https://anduril.com
   sector: defense
@@ -114,16 +121,18 @@ companies:
   url: https://anzenna.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anzenna
+  slug: anzenna
+  matched_by: domain
 - name: Arcos Labs
   url: https://arcoslabs.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arcos-labs
+  slug: arcos-labs
+  matched_by: domain
 - name: Armadin
   url: https://armadin.com
   status: active
@@ -131,7 +140,7 @@ companies:
   slug: armadin
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Asana
   url: https://asana.com
   status: active
@@ -144,73 +153,82 @@ companies:
   url: https://goaugment.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: augment
+  in_network: true
+  is_api_provider: true
+  slug: augment
+  matched_by: domain
 - name: Aviatrix
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aviatrix
+  slug: aviatrix
+  matched_by: name-slug
 - name: Baton
   url: https://baton.io
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: baton
+  slug: baton
+  matched_by: domain
 - name: Bedrock Robotics
   url: https://bedrockrobotics.com
   sector: robotics
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bedrock-robotics
+  slug: bedrock-robotics
+  matched_by: domain
 - name: Bespoke Labs
   url: https://bespokelabs.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bespoke-labs
+  in_network: true
+  is_api_provider: true
+  slug: bespoke-labs
+  matched_by: domain
 - name: Bighat Biosciences
   url: https://bighatbio.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bighat-biosciences
+  slug: bighat-biosciences
+  matched_by: domain
 - name: Blend
   url: https://blend.com
   status: active
   source: https://8vc.com/companies
-  slug: blend-mortgage
+  slug: blend-labs
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Blink Health
   url: https://blinkhealth.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blink-health
+  slug: blink-health
+  matched_by: domain
 - name: Bluevoyant
   url: https://bluevoyant.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluevoyant
+  slug: bluevoyant
+  matched_by: domain
 - name: Bobyard
   url: https://bobyard.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bobyard
+  slug: bobyard
+  matched_by: domain
 - name: Branch
   url: https://branch.co
   status: active
@@ -223,9 +241,10 @@ companies:
   url: https://cambiumglobal.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cambium
+  slug: cambium
+  matched_by: name-slug
 - name: Candid Health
   url: https://joincandidhealth.com
   status: active
@@ -238,10 +257,10 @@ companies:
   url: https://cartography.bio
   status: active
   source: https://8vc.com/companies
-  slug: cartography
+  slug: cartography-biosciences
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Casetext
   url: https://casetext.com
   status: acquired
@@ -254,44 +273,50 @@ companies:
   url: https://cellanome.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cellanome
+  slug: cellanome
+  matched_by: domain
 - name: Cellares
   url: https://cellares.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cellares
+  slug: cellares
+  matched_by: domain
 - name: Cellino Bio
   url: https://cellinobio.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cellino-bio
+  slug: cellinobio
+  matched_by: domain
 - name: Chaos
   url: https://chaosinc.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chaos
+  slug: chaos
+  matched_by: domain
 - name: Citizen
   url: https://citizen.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: citizen
+  slug: citizen
+  matched_by: domain
 - name: City Block
   url: https://cityblock.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: city-block
+  slug: cityblock
+  matched_by: domain
 - name: Cognition
   url: https://cognition.ai
   status: active
@@ -304,9 +329,9 @@ companies:
   url: https://color.com
   status: active
   source: https://8vc.com/companies
-  slug: color-genomics
+  slug: color
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Commure
   url: https://commure.com
@@ -320,23 +345,26 @@ companies:
   url: https://coram.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: coram-ai
+  in_network: true
+  is_api_provider: true
+  slug: coram-ai
+  matched_by: domain
 - name: Create
   url: https://createmedicines.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: create
+  slug: create
+  matched_by: domain
 - name: Cx2
   url: https://cx2.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cx2
+  slug: cx2
+  matched_by: domain
 - name: Datahub
   url: https://datahub.com
   status: active
@@ -349,30 +377,34 @@ companies:
   url: https://daydream.dental
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daydream
+  slug: daydream
+  matched_by: domain
 - name: Dealpath
   url: https://dealpath.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dealpath
+  slug: dealpath
+  matched_by: domain
 - name: Deliverr
   url: https://deliverr.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deliverr
+  slug: deliverr
+  matched_by: domain
 - name: Digital Diagnostics
   url: https://digitaldiagnostics.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: digital-diagnostics
+  slug: digital-diagnostics
+  matched_by: domain
 - name: Digital Surgery
   url: https://medtronic.com
   status: active
@@ -385,30 +417,34 @@ companies:
   url: https://drenbio.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dren-bio
+  slug: dren-bio
+  matched_by: domain
 - name: Edra
   url: https://edra.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edra
+  slug: edra
+  matched_by: domain
 - name: Elemy
   url: https://elemy.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elemy
+  slug: care
+  matched_by: domain
 - name: Enclave
   url: https://enclave.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enclave
+  slug: enclave
+  matched_by: domain
 - name: Epirus
   url: https://epirusinc.com
   sector: defense
@@ -422,30 +458,34 @@ companies:
   url: https://esper.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: esper
+  in_network: true
+  is_api_provider: true
+  slug: esper
+  matched_by: name-slug
 - name: Fabrion
   url: https://fabrion.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fabrion
+  slug: fabrion
+  matched_by: domain
 - name: Fieldguide
   url: https://fieldguide.io
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fieldguide
+  in_network: true
+  is_api_provider: true
+  slug: fieldguide
+  matched_by: domain
 - name: Fig 1
   url: https://fig-1.co
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fig-1
+  slug: fig-1
+  matched_by: domain
 - name: Flexport
   url: https://flexport.com
   sector: logistics
@@ -467,9 +507,10 @@ companies:
   url: https://flywheel.io
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flywheel
+  slug: flywheel
+  matched_by: domain
 - name: Forethought
   url: https://forethought.ai
   status: active
@@ -482,30 +523,34 @@ companies:
   url: https://fractalsoftware.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fractal
+  slug: fractal
+  matched_by: domain
 - name: Freight Waves
   url: https://freightwaves.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: freight-waves
+  in_network: true
+  is_api_provider: true
+  slug: freight-waves
+  matched_by: domain
 - name: Galileo
   url: https://galileohealth.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: galileo
+  slug: galileo
+  matched_by: name-slug
 - name: Gallatin Ai
   url: https://gallatin.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gallatin-ai
+  slug: gallatin-ai
+  matched_by: domain
 - name: Gatsby
   url: https://gatsby.events
   status: active
@@ -518,16 +563,18 @@ companies:
   url: https://generalistai.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: generalist
+  slug: generalistai
+  matched_by: domain
 - name: Glimpse
   url: https://tryglimpse.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glimpse
+  slug: glimpse
+  matched_by: domain
 - name: Guardant Health
   url: https://guardanthealth.com
   status: active
@@ -540,51 +587,58 @@ companies:
   url: https://halomentalhealth.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: halo-health
+  slug: halo-health
+  matched_by: domain
 - name: Harbor Health
   url: https://harborhealth.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: harbor-health
+  slug: harbor-health
+  matched_by: domain
 - name: Hdvi
   url: https://hdvi.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hdvi
+  slug: hdvi
+  matched_by: domain
 - name: Hearth
   url: https://gethearth.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hearth
+  slug: hearth
+  matched_by: domain
 - name: Hello Patient
   url: https://hellopatient.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hello-patient
+  slug: hello-patient
+  matched_by: domain
 - name: Hill House
   url: https://hillhousehome.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hill-house
+  slug: hill-house
+  matched_by: domain
 - name: Hims
   url: https://forhims.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hims
+  slug: hims
+  matched_by: domain
 - name: Hive
   url: https://thehive.ai
   status: active
@@ -605,23 +659,26 @@ companies:
   url: https://hellohopscotch.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hopscotch
+  slug: hopscotch
+  matched_by: domain
 - name: Illumio
   url: https://illumio.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: illumio
+  slug: illumio
+  matched_by: domain
 - name: Indigov
   url: https://indigov.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: indigov
+  slug: indigov
+  matched_by: domain
 - name: Indio
   url: https://useindio.com
   status: active
@@ -634,9 +691,10 @@ companies:
   url: https://infrahq.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: infra
+  in_network: true
+  is_api_provider: true
+  slug: infra
+  matched_by: domain
 - name: Joby
   url: https://jobyaviation.com
   status: active
@@ -649,23 +707,26 @@ companies:
   url: https://keycare.org
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: keycare
+  slug: keycare
+  matched_by: domain
 - name: Kojo
   url: https://usekojo.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kojo
+  slug: kojo-technologies
+  matched_by: domain
 - name: Kos
   url: https://kos.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kos
+  slug: kos
+  matched_by: domain
 - name: Latent Labs
   status: active
   source: https://8vc.com/companies
@@ -676,58 +737,66 @@ companies:
 - name: Latus Bio
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: latus-bio
+  slug: latus-bio
+  matched_by: name-slug
 - name: Lightbeam Ai
   url: https://lightbeam.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightbeam-ai
+  slug: lightbeam-ai
+  matched_by: domain
 - name: Lighten
   url: https://lighten-ai.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lighten
+  slug: lighten
+  matched_by: domain
 - name: Loop
   url: https://loop.us
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: loop
+  in_network: true
+  is_api_provider: true
+  slug: loop
+  matched_by: name-slug
 - name: Luminary
   url: https://withluminary.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: luminary
+  in_network: true
+  is_api_provider: true
+  slug: luminary
+  matched_by: domain
 - name: Luminate
   url: https://luminatemed.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luminate
+  slug: luminate
+  matched_by: domain
 - name: Luna
   url: https://getluna.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luna
+  slug: luna
+  matched_by: domain
 - name: Mammoth Biosciences
   url: https://mammoth.bio
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mammoth-biosciences
+  slug: mammoth-biosciences
+  matched_by: domain
 - name: Materialize
   url: https://materialize.com
   status: active
@@ -740,30 +809,34 @@ companies:
   url: https://mendra.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mendra
+  slug: mendra
+  matched_by: domain
 - name: Meritfirst
   url: https://meritfirst.us
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meritfirst
+  slug: meritfirst
+  matched_by: domain
 - name: Mindbloom
   url: https://mindbloom.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mindbloom
+  slug: mindbloom
+  matched_by: domain
 - name: Model Medicines
   url: https://modelmedicines.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: model-medicines
+  slug: model-medicines
+  matched_by: domain
 - name: Newlimit
   url: https://newlimit.com
   status: active
@@ -771,7 +844,7 @@ companies:
   slug: newlimit
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Nile
   url: https://nilesecure.com
   status: active
@@ -784,16 +857,18 @@ companies:
   url: https://nimbushealth.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nimbus-health
+  slug: nimbus-health
+  matched_by: domain
 - name: Nyansa
   url: https://nyansa.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nyansa
+  slug: nyansa
+  matched_by: domain
 - name: Nylas
   url: https://nylas.com
   status: active
@@ -806,23 +881,26 @@ companies:
   url: https://octant.bio
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: octant
+  slug: octant
+  matched_by: domain
 - name: Oculus
   url: https://oculus.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oculus
+  slug: oculus
+  matched_by: domain
 - name: Opencare
   url: https://opencare.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opencare
+  slug: opencare
+  matched_by: domain
 - name: Opengov
   url: https://opengov.com
   status: active
@@ -835,24 +913,27 @@ companies:
   url: https://optoinvest.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opto
+  slug: opto
+  matched_by: domain
 - name: Orca Bio
   url: https://orcabio.com
   sector: biotech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orca-bio
+  slug: orcabio
+  matched_by: domain
 - name: Orchestra
   url: https://orchestra.bio
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orchestra
+  slug: orchestra
+  matched_by: domain
 - name: Oscar
   url: https://hioscar.com
   status: active
@@ -865,37 +946,42 @@ companies:
   url: https://oulahealth.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oula
+  slug: oula-health
+  matched_by: domain
 - name: Our Place
   url: https://fromourplace.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: our-place
+  slug: our-place
+  matched_by: domain
 - name: Outrider
   url: https://outrider.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outrider
+  slug: outrider
+  matched_by: domain
 - name: Outset
   url: https://outset.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outset
+  slug: outset
+  matched_by: domain
 - name: Overland Ai
   url: https://overland.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: overland-ai
+  slug: overland-ai
+  matched_by: domain
 - name: Palantir
   url: https://palantir.com
   status: active
@@ -908,23 +994,26 @@ companies:
   url: https://pathai.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pathai
+  slug: pathai
+  matched_by: domain
 - name: Platform Science
   url: https://platformscience.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: platform-science
+  slug: platform-science
+  matched_by: domain
 - name: Pointone
   url: https://pointone.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pointone
+  slug: pointone
+  matched_by: domain
 - name: Polly
   url: https://polly.io
   status: active
@@ -937,9 +1026,10 @@ companies:
   url: https://ponder.io
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ponder
+  slug: ponder
+  matched_by: domain
 - name: Project44
   url: https://project44.com
   sector: logistics
@@ -953,9 +1043,10 @@ companies:
   url: https://promise-pay.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: promise
+  slug: promise
+  matched_by: domain
 - name: Qualia
   url: https://qualia.com
   status: active
@@ -968,9 +1059,10 @@ companies:
   url: https://quince.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quince
+  slug: quince
+  matched_by: domain
 - name: Rainbow
   url: https://userainbow.com
   status: active
@@ -1000,38 +1092,43 @@ companies:
   url: https://reserv.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reserv
+  slug: reserv
+  matched_by: domain
 - name: Resilience
   url: https://resilience.com
   sector: biotech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resilience
+  slug: resilience
+  matched_by: domain
 - name: Ritten
   url: https://ritten.io
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ritten
+  slug: ritten
+  matched_by: domain
 - name: Rocketlane
   url: https://rocketlane.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rocketlane
+  in_network: true
+  is_api_provider: true
+  slug: rocketlane
+  matched_by: domain
 - name: Saris
   url: https://saris.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saris
+  slug: saris
+  matched_by: domain
 - name: Saronic
   url: https://saronic.com
   sector: defense
@@ -1045,147 +1142,167 @@ companies:
   url: https://seqholdings.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sequence-holdings
+  slug: sequence-holdings
+  matched_by: domain
 - name: Sesh
   url: https://seshproducts.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sesh
+  slug: sesh
+  matched_by: domain
 - name: Sila Nanotechnologies
   url: https://silanano.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sila-nanotechnologies
+  slug: sila-nanotechnologies
+  matched_by: domain
 - name: Sirona
   url: https://sironamedical.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sirona
+  slug: nines
+  matched_by: domain
 - name: Socotra
   url: https://socotra.com
   sector: insurtech
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: socotra
+  in_network: true
+  is_api_provider: true
+  slug: socotra
+  matched_by: domain
 - name: Software
   url: https://software.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: software
+  slug: software
+  matched_by: name-slug
 - name: Sonoma Biotherapeutics
   url: https://sonomabio.com
   sector: biotech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sonoma-biotherapeutics
+  slug: sonoma-biotherapeutics
+  matched_by: domain
 - name: Spotnana
   url: https://spotnana.com
   sector: travel
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: spotnana
+  in_network: true
+  is_api_provider: true
+  slug: spotnana
+  matched_by: domain
 - name: Stack Health
   url: https://stackhealthcare.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stack-health
+  slug: stack-health
+  matched_by: domain
 - name: Standard Metrics
   url: https://standardmetrics.io
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: standard-metrics
+  in_network: true
+  is_api_provider: true
+  slug: standard-metrics
+  matched_by: domain
 - name: Structify
   url: https://structify.ai
   sector: ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: structify
+  in_network: true
+  is_api_provider: true
+  slug: structify
+  matched_by: domain
 - name: Tap
   url: https://tap3d.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tap
+  slug: tap
+  matched_by: domain
 - name: Tasca Therapeutics
   sector: biotech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tasca-therapeutics
+  slug: tasca-therapeutics
+  matched_by: name-slug
 - name: Terminal
   url: https://terminal.io
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: terminal
+  slug: terminal
+  matched_by: domain
 - name: Terminal Logistics
   url: https://terminal-industries.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: terminal-logistics
+  slug: terminal-logistics
+  matched_by: domain
 - name: Terra Industries
   url: https://terraindustries.co
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: terra-industries
+  slug: terra-industries
+  matched_by: domain
 - name: The Boring Company
   url: https://boringcompany.com
   sector: infrastructure
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-boring-company
+  slug: the-boring-company
+  matched_by: domain
 - name: Thorin
   url: https://thorin.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thorin
+  slug: thorin
+  matched_by: domain
 - name: Tilda
   url: https://tilda.bio
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tilda
+  slug: tilda
+  matched_by: domain
 - name: Trackonomy
   url: https://trackonomysystems.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trackonomy
+  slug: trackonomy
+  matched_by: name-slug
 - name: Tul
   url: https://tul.com.co
   status: active
@@ -1208,24 +1325,27 @@ companies:
   sector: biotech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unlearn
+  slug: unlearn
+  matched_by: domain
 - name: Ushur
   url: https://ushur.com
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ushur
+  slug: ushur
+  matched_by: domain
 - name: Vals Ai
   url: https://vals.ai
   sector: ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vals-ai
+  slug: vals-ai
+  matched_by: domain
 - name: Vector
   url: https://withvector.com
   status: active
@@ -1248,44 +1368,49 @@ companies:
   sector: ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: waabi
+  slug: waabi
+  matched_by: domain
 - name: Wish
   url: https://wish.com
   status: ipo
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wish
+  in_network: true
+  is_api_provider: true
+  slug: wish
+  matched_by: domain
 - name: Wispr Ai
   url: https://flowvoice.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wispr-ai
+  in_network: true
+  is_api_provider: true
+  slug: wispr-ai
+  matched_by: name-slug
 - name: Withcoverage
   url: https://withcoverage.com
   sector: insurtech
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: withcoverage
+  slug: withcoverage
+  matched_by: domain
 - name: Worktrace Ai
   url: https://worktrace.ai
   status: active
   source: https://8vc.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: worktrace-ai
+  slug: worktrace-ai
+  matched_by: domain
 - name: Yugabyte
   url: https://yugabyte.com
   sector: infrastructure
   status: active
   source: https://8vc.com/companies
-  slug: yugabytedb
+  slug: yugabyte
   in_network: true
   is_api_provider: true
   matched_by: domain
