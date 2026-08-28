@@ -14,6 +14,17 @@ description: >-
   Anduril, Flexport, Vercel, Saronic, Epirus, Yugabyte, and Project44. The firm runs the 8VC Fellowship
   and Bio-IT Fellowship talent programs and maintains a stated policy of not accepting capital from
   foreign-government-connected sources.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
