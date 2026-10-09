@@ -1386,7 +1386,7 @@ companies:
   source: https://8vc.com/companies
   in_network: true
   is_api_provider: true
-  slug: wispr-ai
+  slug: wisprflow-ai
   matched_by: name-slug
 - name: Withcoverage
   url: https://withcoverage.com
