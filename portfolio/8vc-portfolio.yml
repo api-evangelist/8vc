@@ -74,7 +74,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: alloy-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://alloytx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Altos Labs
   url: https://altoslabs.com
   status: active
@@ -162,7 +164,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: aviatrix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aviatrix.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Baton
   url: https://baton.io
   status: active
@@ -242,8 +246,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: cambium
   suggested_slug: cambiumglobal-com
+  x-name-collision: cambium
 - name: Candid Health
   url: https://joincandidhealth.com
   status: active
@@ -539,8 +543,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: galileo
   suggested_slug: galileohealth-com
+  x-name-collision: galileo
 - name: Gallatin Ai
   url: https://gallatin.ai
   status: active
@@ -555,8 +559,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: gatsby
   suggested_slug: gatsby-events
+  x-name-collision: gatsby
 - name: Generalist
   url: https://generalistai.com
   status: active
@@ -643,8 +647,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: hive
   suggested_slug: thehive-ai
+  x-name-collision: hive
 - name: Honor
   url: https://joinhonor.com
   status: active
@@ -731,14 +735,18 @@ companies:
   slug: latent-labs
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.latentlabs.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Latus Bio
   status: active
   source: https://8vc.com/companies
   in_network: true
   is_api_provider: false
   slug: latus-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.latusbio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lightbeam Ai
   url: https://lightbeam.ai
   status: active
@@ -1018,8 +1026,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: polly
   suggested_slug: polly-io
+  x-name-collision: polly
 - name: Ponder
   url: https://ponder.io
   status: active
@@ -1067,8 +1075,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: rainbow
   suggested_slug: userainbow-com
+  x-name-collision: rainbow
 - name: Ramp
   url: https://ramp.com
   sector: fintech
@@ -1183,8 +1191,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: software
   suggested_slug: software-com
+  x-name-collision: software
 - name: Sonoma Biotherapeutics
   url: https://sonomabio.com
   sector: biotech
@@ -1299,8 +1307,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: trackonomy
   suggested_slug: trackonomysystems-com
+  x-name-collision: trackonomy
 - name: Tul
   url: https://tul.com.co
   status: active
@@ -1350,8 +1358,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: vector
   suggested_slug: withvector-com
+  x-name-collision: vector
 - name: Vercel
   url: https://vercel.com
   sector: developer-tools
@@ -1384,8 +1392,8 @@ companies:
   source: https://8vc.com/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: wispr-ai
   suggested_slug: flowvoice-ai
+  x-name-collision: wispr-ai
 - name: Withcoverage
   url: https://withcoverage.com
   sector: insurtech
