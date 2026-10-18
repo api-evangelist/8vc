@@ -3,9 +3,9 @@ method: searched
 source: https://8vc.com/companies
 summary:
   portfolio_total: 173
-  in_network: 173
-  api_providers: 41
-  missing: 0
+  in_network: 161
+  api_providers: 40
+  missing: 12
   stubs_created: 0
 companies:
 - name: 180 Insurance
@@ -14,7 +14,7 @@ companies:
   status: active
   source: https://8vc.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: 180-insurance
   matched_by: domain
 - name: Addepar
@@ -65,10 +65,9 @@ companies:
   url: https://alloy.ai
   status: active
   source: https://8vc.com/companies
-  slug: alloy
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: alloy
 - name: Alloy Therapeutics
   status: active
   source: https://8vc.com/companies
@@ -106,7 +105,7 @@ companies:
   source: https://8vc.com/companies
   in_network: true
   is_api_provider: false
-  slug: anduin-transactions
+  slug: anduin
   matched_by: domain
 - name: Anduril
   url: https://anduril.com
@@ -201,9 +200,9 @@ companies:
   url: https://blend.com
   status: active
   source: https://8vc.com/companies
-  slug: blend-labs
+  slug: blend-mortgage
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Blink Health
   url: https://blinkhealth.com
@@ -241,10 +240,10 @@ companies:
   url: https://cambiumglobal.com
   status: active
   source: https://8vc.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cambium
-  matched_by: name-slug
+  x-name-collision: cambium
+  suggested_slug: cambiumglobal-com
 - name: Candid Health
   url: https://joincandidhealth.com
   status: active
@@ -315,13 +314,13 @@ companies:
   source: https://8vc.com/companies
   in_network: true
   is_api_provider: false
-  slug: cityblock
+  slug: city-block
   matched_by: domain
 - name: Cognition
   url: https://cognition.ai
   status: active
   source: https://8vc.com/companies
-  slug: cognition
+  slug: cognition-labs
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -337,9 +336,9 @@ companies:
   url: https://commure.com
   status: active
   source: https://8vc.com/companies
-  slug: augmedix
+  slug: commure
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Coram Ai
   url: https://coram.ai
@@ -499,10 +498,9 @@ companies:
   url: https://flux.ai
   status: active
   source: https://8vc.com/companies
-  slug: flux
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: flux
 - name: Flywheel
   url: https://flywheel.io
   status: active
@@ -539,10 +537,10 @@ companies:
   url: https://galileohealth.com
   status: active
   source: https://8vc.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: galileo
-  matched_by: name-slug
+  x-name-collision: galileo
+  suggested_slug: galileohealth-com
 - name: Gallatin Ai
   url: https://gallatin.ai
   status: active
@@ -555,17 +553,17 @@ companies:
   url: https://gatsby.events
   status: active
   source: https://8vc.com/companies
-  slug: gatsby
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: gatsby
+  suggested_slug: gatsby-events
 - name: Generalist
   url: https://generalistai.com
   status: active
   source: https://8vc.com/companies
   in_network: true
   is_api_provider: false
-  slug: generalistai
+  slug: generalist-ai
   matched_by: domain
 - name: Glimpse
   url: https://tryglimpse.com
@@ -643,10 +641,10 @@ companies:
   url: https://thehive.ai
   status: active
   source: https://8vc.com/companies
-  slug: hive
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: hive
+  suggested_slug: thehive-ai
 - name: Honor
   url: https://joinhonor.com
   status: active
@@ -883,7 +881,7 @@ companies:
   source: https://8vc.com/companies
   in_network: true
   is_api_provider: false
-  slug: octant
+  slug: octant-bio
   matched_by: domain
 - name: Oculus
   url: https://oculus.com
@@ -905,9 +903,9 @@ companies:
   url: https://opengov.com
   status: active
   source: https://8vc.com/companies
-  slug: public-sector
+  slug: opengov
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Opto
   url: https://optoinvest.com
@@ -938,7 +936,7 @@ companies:
   url: https://hioscar.com
   status: active
   source: https://8vc.com/companies
-  slug: oscar-health
+  slug: oscar
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1018,10 +1016,10 @@ companies:
   url: https://polly.io
   status: active
   source: https://8vc.com/companies
-  slug: polly
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: polly
+  suggested_slug: polly-io
 - name: Ponder
   url: https://ponder.io
   status: active
@@ -1067,10 +1065,10 @@ companies:
   url: https://userainbow.com
   status: active
   source: https://8vc.com/companies
-  slug: rainbow
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: rainbow
+  suggested_slug: userainbow-com
 - name: Ramp
   url: https://ramp.com
   sector: fintech
@@ -1110,7 +1108,7 @@ companies:
   status: active
   source: https://8vc.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: ritten
   matched_by: domain
 - name: Rocketlane
@@ -1183,10 +1181,10 @@ companies:
   url: https://software.com
   status: active
   source: https://8vc.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: software
-  matched_by: name-slug
+  x-name-collision: software
+  suggested_slug: software-com
 - name: Sonoma Biotherapeutics
   url: https://sonomabio.com
   sector: biotech
@@ -1299,10 +1297,10 @@ companies:
   url: https://trackonomysystems.com
   status: active
   source: https://8vc.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: trackonomy
-  matched_by: name-slug
+  x-name-collision: trackonomy
+  suggested_slug: trackonomysystems-com
 - name: Tul
   url: https://tul.com.co
   status: active
@@ -1350,10 +1348,10 @@ companies:
   url: https://withvector.com
   status: active
   source: https://8vc.com/companies
-  slug: vector
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: vector
+  suggested_slug: withvector-com
 - name: Vercel
   url: https://vercel.com
   sector: developer-tools
@@ -1384,10 +1382,10 @@ companies:
   url: https://flowvoice.ai
   status: active
   source: https://8vc.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: wisprflow-ai
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: wispr-ai
+  suggested_slug: flowvoice-ai
 - name: Withcoverage
   url: https://withcoverage.com
   sector: insurtech
